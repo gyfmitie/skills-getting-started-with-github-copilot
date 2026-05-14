@@ -74,6 +74,75 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.participants-section {
+  margin-top: 12px;
+  padding: 12px;
+  border: 1px solid #dbe3ff;
+  border-radius: 8px;
+  background: linear-gradient(180deg, #f7f9ff 0%, #eef2ff 100%);
+}
+
+.participants-title {
+  margin-bottom: 8px;
+  font-weight: 700;
+  color: #1a237e;
+}
+
+.participants-list {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  color: #2f3a5c;
+}
+
+.participants-list li {
+  margin-bottom: 4px;
+}
+
+.participants-list li:last-child {
+  margin-bottom: 0;
+}
+
+.empty-participants {
+  font-style: italic;
+  color: #616f9b;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 6px 8px;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.65);
+}
+
+.participant-email {
+  overflow-wrap: anywhere;
+}
+
+.remove-participant-btn {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid #e3b5b5;
+  background: #fff5f5;
+  color: #a72a2a;
+  font-size: 18px;
+  line-height: 1;
+  padding: 0;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s, color 0.2s;
+}
+
+.remove-participant-btn:hover {
+  background: #ffe7e7;
+  border-color: #d57f7f;
+  color: #8f1f1f;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
